@@ -25,5 +25,10 @@ io.on('connection', socket => {
     })
   })
 })
-
+io.on('connection', socket=>{
+    socket.on('join-room',(roomID,userID) =>
+    {
+        console.log(roomID,userID)
+    })
+})
 server.listen(3000)

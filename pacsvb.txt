@@ -1,0 +1,24 @@
+Server Setup
+ npm init -y
+
+
+npm i express ejs socket.io 
+express server
+
+
+npm i uuid
+ allows to create dynamic urls
+
+npm i --save dev nodemon
+ allows to refresh pages
+
+To run devStart server
+ npm run devStart
+
+npm i -g peer install peer for peer server
+  to run peer 
+  peerjs --port 3001
+
+
+
+*********SVB************
